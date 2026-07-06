@@ -8,7 +8,8 @@
   color: #fff;
   height: 100vh;
   max-height: 100vh;
-  position: relative;
+  position: fixed;
+  inset: 0;
   overflow: hidden;
   display: flex;
   flex-direction: column;
@@ -305,7 +306,7 @@ a:hover .arrowBack {
   justify-content: space-between;
   align-items: center;
   min-height: 80px;
-  padding: 16px 36px;
+  padding: 28px 42px 20px;
   display: flex;
   position: relative;
 }
@@ -400,7 +401,7 @@ a:hover .arrowBack {
 .stepContent {
   flex: 1;
   min-height: 400px;
-  padding: 24px 36px 16px;
+  padding: 24px 42px;
 }
 
 .stepIntro {
@@ -633,7 +634,7 @@ a:hover .arrowBack {
   justify-content: space-between;
   align-items: center;
   min-height: 72px;
-  padding: 12px 36px;
+  padding: 20px 42px 28px;
   display: flex;
 }
 

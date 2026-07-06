@@ -640,7 +640,7 @@ export function LandingPage() {
         scrollTrigger: {
           trigger: ".story",
           start: "top top",
-          end: "bottom-=200vh bottom",
+          end: "bottom-=300vh bottom",
           scrub: true,
         }
       });

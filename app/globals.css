@@ -210,22 +210,9 @@ a:hover .arrow-diagonal {
     0 -1px 0 rgba(255, 255, 255, 0.08),
     0 -36px 90px rgba(0, 0, 0, 0.72);
   isolation: isolate;
-  margin-top: -28vh;
+  margin-top: -100vh;
   position: relative;
   z-index: 10;
-}
-
-.card-deck::before {
-  background: linear-gradient(90deg, transparent, rgba(255, 122, 41, 0.5), transparent);
-  content: "";
-  height: 1px;
-  left: 50%;
-  opacity: 0.7;
-  position: absolute;
-  top: 0;
-  transform: translateX(-50%);
-  width: min(42vw, 560px);
-  z-index: 20;
 }
 
 .hero-scene {
@@ -458,7 +445,7 @@ a:hover .arrow-diagonal {
 .premise {
   background: transparent;
   color: var(--white);
-  height: 150vh;
+  height: 250vh; /* 150vh to fully show + 100vh hold before card-deck slides over */
   min-height: 900px;
   padding: 0;
   position: relative;
@@ -562,7 +549,7 @@ a:hover .arrow-diagonal {
 
 .story {
   background: #0b1a2a;
-  min-height: 600vh; /* Set to 600vh to support 100vh hold + 100vh overlap */
+  min-height: 800vh; /* Set to 800vh to support 300vh hold + 100vh overlap */
   position: relative;
   z-index: 3;
 }
